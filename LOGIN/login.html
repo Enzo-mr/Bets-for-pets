@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIAR SESIÓN</title>
+    <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="../a/css/font.css">
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body background="images/lantern-6826687_1920.jpg">
+    <header class="header">
+        <a href="../index.html"><img src="../images/logo.png"id="log"></a>
+           <div class="log-nav-container">
+           <a href="../index.html" class="logo">BEST FOR PETS<a class="gato">ABC</a><a class="perro">ABC</a></a>
+               <nav class="navigation">
+                   <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../productos_pets/productos.html">Productos</a></li>
+                    <li><a href="../nosotros/acerca.html">Nosotros</a></li>
+                   </ul>
+               </nav>
+           </div>
+       </header>    
+       <div class="social-bar">
+        <a href="https://www.facebook.com/" class="icon icon-facebook2"></a>
+        <a href="https://www.instagram.com/" class="icon icon-instagram"></a>
+        <a href="https://twitter.com/" class="icon icon-twitter"></a>
+        <a href="https://web.whatsapp.com/" class="icon icon-whatsapp"></a>
+        <a href="https://web.telegram.org/" class="icon icon-telegram"></a>
+      </div>
+      
+      <div id="super">
+        <div id="con1">
+            <video loop="true" muted autoplay style="height: 100vh;">
+                <source src="../videos/InShot_20211211_214800606.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="con2">
+            
+            <div id="sing">
+                <H1><u> LOGIN</u></H1>
+            </div>
+            <div id="main1">
+                <p id="parr"><b>Bienvenido.</b> Por favor inicie sesión.</p>
+            </div>
+            <div id="main2">
+                <input type="email" placeholder="Correo Electronico" id="input">
+                <input type="password" placeholder="Contraseña" id="input2">
+            </div>
+            <div id="main3">
+                <button id="inicio" onclick="iniciar(event)">INICIAR SESION</button>
+                <a href="#" onclick="lostpas()" id="lostpass">¿Olvidaste la contraseña?</a>
+            </div>
+            <div id="line">
+                <p>--------------------------------------------------------</p>
+            </div>
+            <div id="sub">
+                <p id="parr2">Aún no te registras?</p>
+                <a href="#" onclick="register()" id="register">Registrarse</a>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="javascript/login.js"></script>
+</body>
+</html>

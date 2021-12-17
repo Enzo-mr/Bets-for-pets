@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+}
+  
+@font-face{
+    font-family: "fontuno";
+    src: url("/productos_pets/css/fonts/Best\ School\ Font\ by\ Kelik\ \(7NTypes\).otf");
+}
+@font-face{
+    font-family: "fontdos";
+    src: url("/productos_pets/css/fonts/can\ dog\ tfb.ttf");
+}
+@font-face{
+    font-family: "fonttres";
+    src: url("/productos_pets/css/fonts/kitty\ cats\ tfb.ttf");
+}
+
+.header{
+    background: rgb(255, 255, 255);
+    padding: 1rem 0;
+    position:fixed;box-shadow: 0px 0px 10px 5px rgb(180, 81, 0) ;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.header a{
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+}
+.log-nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{font-size: 22px;
+    display: inline-block;
+    font-family: "fontuno";
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s linear;
+    font-weight: bold;
+}
+.navigation ul li a:hover{
+    background: rgb(255, 116, 2);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 15px;
+
+}
+.logo{
+    font-family: "fontuno";
+    letter-spacing: 5px;
+    font-size:35px;
+    padding-left: 135px;
+    font-weight: bold;
+}
+#log{
+    padding-top: 10px;
+    width: 120px;
+   position: absolute;padding-left: 30px;
+   top: -15px;
+}
+#cart{
+    width: 40px;
+}
+.gato{
+    font-family: "fonttres";
+    font-size: 4em;
+}
+.perro{
+    font-family: "fontdos";
+    font-size: 4em;
+}
+
+#port{
+    width: 100%;
+   padding-top: 115px;
+    
+}
+
+#ventana{background-color: rgb(255, 194, 145);position: fixed;right: 0;width: 40%;height: 100%;top: 0;display: none;}
+/* -------------------------------------------REDES SOCIALES--------------------------------------------------------------------------------*/
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.icon-facebook2{
+	background: #2E406E;
+}
+.icon-twitter {
+	background: #339DC5;
+}
+.icon-youtube {
+	background: #E83028;
+}
+.icon-instagram {
+	background: #3F60A5;
+}
+.icon-whatsapp {
+	background: #25d366;
+}
+.icon-telegram {
+	background: #0088CC;
+}
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+#espace{
+    padding-top: 7%;
+    padding-left: 17%;
+    margin: auto;
+}
+
+/*----------------------CUERPO------------------------*/
+
+#super{margin: auto;
+    width: 95%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    top: 100px;bottom: 0;background-color:rgb(221, 218, 215);
+}
+/*----------CAT--------*/
+#con1{
+    left: 0;height: 100vh;
+    position:static;
+}
+
+/*---------LOGIN-------*/
+#con2{width: 50%;height: 100vh;right: 0;left: 0;
+    position: relative;
+    background-color: rgb(221, 218, 215);
+}
+#sing{
+    color: #FF8027;
+    position: relative;
+    top: 20%;
+    left: 7%;
+}
+#main1{
+    font-size: 1.4em;
+    color: #FF8027;
+    position: relative;
+    top: 24%;
+    left: 7%;
+}
+#main2{
+    width: 70%;
+    height: 10%;
+    position: relative;
+    top: 26%;
+    left: 7%;
+}
+#input{
+    position: relative;
+    height: 45%;
+    width: 260px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+#input2{
+    margin-top: 5%;
+    position: relative;
+    height: 45%;
+    width: 260px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+#main3{
+    width: 300px;
+    height: 10%;
+    position: relative;
+    top: 33%;
+    left: 7%;
+}
+#inicio{
+    border: none;
+    width: 286px;
+    height: 50%;
+    background: #f57b2a;
+    position: relative;
+    left: 1%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+#lostpass{
+    position: relative;
+    float: right;
+    right: 20px;
+    color: #f57b2a;
+}
+#line{
+    position: relative;
+    top: 35%;
+    left: 7%;
+}
+#sub{
+    position: relative;
+    top: 35%;
+    left: 7%;
+}
+#parr2{
+    color: black;
+}
+#register{
+    color: #f57b2a;
+}
